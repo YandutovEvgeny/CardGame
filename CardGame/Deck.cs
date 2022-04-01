@@ -22,9 +22,9 @@ namespace CardGame
         void GenerateDeck()
         {
             int count = 1;
-            for (int i = 0; i < 13; i++)
+            for (int j = 0; j < 4; j++)
             {
-                for (int j = 0; j < 4; j++)
+                for (int i = 0; i < 13; i++)
                 {
                     string path = "c:\\cards\\image_part_0";
                     if (count < 10) //если число в пути к файлу меньше 10
